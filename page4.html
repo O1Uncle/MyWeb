@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>视频测试器</title>
+    <!-- 引用外部文件 -->
+    <script src="./js/kk.js">
+    </script>
+</head>
+<body onload="init()">
+      <!--视频没播放的时候显示-->
+    <video width="600"height="400"
+    src="./src/网络编程01.mp4"
+    controls="controls"
+    autoplay="autoplay"
+    poster="./bilibili.jpg"
+    id="ps"
+    >
+    <!-- <source src="./src/网络编程01.mp4"type="mp4">
+        <a href="src/网络编程01.mp4">
+            点击播放
+        </a> -->
+    </video>
+    <br>
+    <!-- 两种方式 -->
+    <input type="button" value="停止"onclick="pause()">
+
+    <button onclick="kjk()">
+        快进
+    </button>
+    <button onclick="play()">
+        播放
+    </button>
+    <button onclick="replay()">
+        重播
+    </button>
+    
+    <button onclick="advan()">
+        速度+
+    </button>
+</body>
+</html>
