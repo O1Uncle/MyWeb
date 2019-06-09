@@ -16,12 +16,15 @@ function pause() {
     vi.pause();
 }
 function advan() {  // 加速的
-    vi.playbackRate *= 1.5;
+    vi.playbackRate *= 1.2;
 
 }
-
+function dd() {  // 加速的
+    vi.playbackRate /= 1.2;
+}
 function replay() {
     vi.load();
 }
+
 
 
